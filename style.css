@@ -1,0 +1,75 @@
+body{
+    font-family: Arial;
+}
+
+.flex{
+    display: grid;
+    justify-items: center;
+}
+.comeco{
+    display: grid;
+    justify-items: center;
+    background-color: whitesmoke;
+    width: 60%;
+    height: 100%;
+}
+
+.tittle{
+    color: rgb(50, 50, 50);
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 0;
+}
+
+.tittletwo{
+    color: rgb(85, 85, 218);
+}
+
+.motivos{
+    margin: 0;
+    padding: 0;
+    color: rgb(37, 37, 106);
+}
+
+.paragrafo{
+    font-size: 25px;
+    font-weight:500;
+    color: rgb(76, 76, 76);
+    max-width: 50%;
+}
+
+img{
+    max-width: 750px;
+    max-height:100vh;
+    margin :15px;
+}
+
+.lista{
+    font-size:20px ;
+    font-weight: 600;
+    color: rgb(49, 49, 49);
+    max-width: 50%;
+}
+
+.itens{
+    margin: 6px;
+}
+
+.autor{
+    font-weight:900 ;
+    color: rgb(38, 38, 38);
+    margin: 0;
+}
+
+.coracao{
+    max-width: 40px;
+    max-height:100vh;
+    margin: 10px;
+    padding-left: 30px;
+}
+
+.final{
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    align-items: center;
+}
